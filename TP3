@@ -1,0 +1,161 @@
+package PrimerPaquete;
+
+public class tp3 {
+
+	public static void main(String[] args) {
+  
+/* Ejercicio 1.a
+		String palabra = "Programacion";
+		
+		int contador = 0, posicion = 0;
+		char caracter = 'p';
+		
+		String palabra_minu = palabra.toLowerCase();
+		posicion = palabra_minu.indexOf(caracter);
+		System.out.println(posicion);
+		
+		if (posicion != -1) {
+			while (posicion != -1) {
+				contador++;
+				
+			posicion = palabra_minu.indexOf(caracter, posicion+1);
+			}//Ciere del while
+			
+		System.out.println("La cantidad de coincidencias es: " +contador);
+		
+		} else System.out.println("No hay coincidencias"); Fin ejercicio 1.a*/
+		
+		
+		/* Ejercicio 1.b
+		boolean orden_asc = false;
+
+		int []vectorA = {500,100,50};
+
+		int num1=0, num2=0,num3=0, aux1=0, aux2=0, mayor=0;
+
+		num1 = vectorA[0];
+
+		num2 = vectorA[1];
+
+		num3 = vectorA[2];
+
+		System.out.println(num1+" " + num2+" " + num3);
+
+		if ((num1 > num2) && (num1 > num3)) {
+
+		mayor=num1;
+
+		if (num2 > num3) {
+
+		aux1=num2;
+
+		aux2=num3;
+
+		}else {
+
+		aux1=num3;
+
+		aux2=num2;
+
+		}
+
+		}
+
+		else{
+
+		if ((num2 > num3) && (num2 > num1)) {
+
+		mayor=num2;
+
+		if (num1 > num3) {
+
+		aux1=num1;
+
+		aux2=num3;
+
+		}else {
+
+		aux1=num3;
+
+		aux2=num1;
+
+		}
+
+		}else {
+
+		mayor=num3;
+
+		if (num2 > num1) {
+
+		aux1=num2;
+
+		aux2=num1;
+
+		}else {
+
+		aux1=num1;
+
+		aux2=num2;
+
+		}
+
+		}
+
+		}
+
+		System.out.println("El mayor es: "+mayor);
+
+		int vecOrdenado [] = new int[3];
+
+		if (orden_asc) {
+
+		vecOrdenado[0]=mayor;
+
+		vecOrdenado[1]=aux1;
+
+		vecOrdenado[2]=aux2;
+
+		}else {
+
+		vecOrdenado[0]=aux2;
+
+		vecOrdenado[1]=aux1;
+
+		vecOrdenado[2]=mayor;
+
+		}
+
+		for (int i=0; i< vecOrdenado.length; i++ ) {
+
+		System.out.print(vecOrdenado[i]+"-");
+		
+		} Fin ejercicio 1.b*/ 
+		
+		
+		/* Ejercicio 1.c
+		int []vector = {8, 12, 80, 69, 4};
+		int x = 50, suma = 0;
+		
+		System.out.println();
+		System.out.println("Segundo vector: ");
+		
+		for (int indice1=0; indice1 < vector.length; indice1++) {
+			if(vector [indice1]> x) {
+				suma = suma + vector[indice1];
+			}
+		}
+		System.out.println("La suma es: " +suma); Fin Ejercicio 1.c */
+		
+		
+		/* Ejercicio 2
+		String frase = "Yo; estoy; estudiando; en: un; curso; de; programacion; de;  java";
+		
+		String fraseSplit[] = frase.split(";");
+		
+		for (String elemento : fraseSplit) {
+			System.out.println(elemento);
+		} Fin ejercicio 2*/
+		
+	}//cierre public class
+
+}//cierre static void
