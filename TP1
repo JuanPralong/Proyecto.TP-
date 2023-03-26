@@ -1,0 +1,83 @@
+package PrimerPaquete;
+
+public class ClassPrimera {
+
+	public static void main(String[] args) {
+		//Este es el comando para comentarios en lineas
+		
+		//System.out.println("Hola Mundo...");
+		//System.out.println("Estoy en Java Inicial");
+		/*int num1=0, num2=10, num3=45, suma=0, resta=0;
+		double division=0, num4=21.53, multiplicacion=0;		
+		
+		suma = num2 + num3;
+		resta = num3 - num1;
+		multiplicacion = num4*3;
+		division = num4/4;
+		System.out.println("La suma es: "+suma);
+		System.out.println("La resta es: "+resta);
+		System.out.println("La multiplicacion es: "+multiplicacion);
+		System.out.println("La division entre "+num4 +" y 3 es: "+division);
+		*/
+		
+		/* Ejercicio 1.a
+		int numeroInicio = 5, numeroFin = 14;
+		while(numeroInicio <= numeroFin) {
+			System.out.println("- "+numeroInicio);
+			numeroInicio = numeroInicio+1;
+		}*/
+		
+		/* Ejercicio 1.b
+		int numeroInicio = 5, numeroFin = 14;
+		while(numeroInicio <= numeroFin) {
+			if	(numeroInicio%2 == 0) {
+				System.out.println("- "+numeroInicio);
+			}//Cierre del if
+			numeroInicio = numeroInicio+1;
+		}//Cierre del While */
+		
+		
+		/* Ejercicio 1.c
+		int nInicio = 5, nFin = 14;
+		boolean imprimirPares = false;
+		while(nInicio <= nFin) {
+			if (imprimirPares == true) {
+				if (nInicio%2 == 0) {
+					System.out.println("- "+nInicio);
+				}//Cierre del if
+		}else {
+			if (nInicio%2 != 0) {
+				System.out.println("- "+nInicio);
+			}//Cierre del if
+			
+			}//Cierre del else
+			
+	nInicio = nInicio + 1;
+		}//Cierre del While */
+		
+		
+		/* Ejercicio 1.d
+		int nInicio = 5;
+		for(int nFinal = 14; nFinal >= nInicio ; nFinal--) {
+			System.out.println(nFinal);
+		}//Cierre del For */
+		
+		/* ejercicio 2
+		float ingresos = 489083;
+		int vehiculos = 3;
+		int casas = 3;
+		int activos = 1;
+
+		if ((ingresos >= 489083) && (vehiculos >= 3) && (casas >= 3) && (activos >= 1)) {
+			
+			System.out.println("Pertenece a la categoria de ingresos altos");
+			
+		}	else if ((ingresos < 489083) || (vehiculos < 3) || (casas < 3) || (activos < 1)) {
+			
+			System.out.println("No pertenece a la categoria de ingresos altos");
+		} */
+		
+		
+	}//Cierre del main
+
+}//cierre de ClassPrimera
